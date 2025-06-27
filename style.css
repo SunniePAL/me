@@ -1,8 +1,8 @@
-/* style.css — cho giao diện to, rõ và dễ thương */
+/* style.css — cho giao diện dễ đọc, chữ to, và nhẹ nhàng */
 body {
   font-family: 'Quicksand', sans-serif;
-  font-size: 22px;         /* tăng font chữ toàn trang */
-  line-height: 1.8;        /* giãn dòng cho thoáng */
+  font-size: 22px;
+  line-height: 1.8;
   color: #333;
   background-color: #fffefc;
   text-align: center;
