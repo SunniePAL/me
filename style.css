@@ -85,3 +85,11 @@ a:hover {
     font-size: 18px;
   }
 }
+/* 🌸 Canh trái riêng cho trang "projects" */
+body.projects {
+  text-align: left;
+  max-width: 600px;
+  margin: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
