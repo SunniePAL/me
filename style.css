@@ -1,14 +1,45 @@
-/* style.css — cho giao diện dễ đọc, chữ to, và nhẹ nhàng */
+/* 🍓 Sunnie Style – chữ to, màu hồng, nắng nhẹ và cực kỳ dễ thương 🍓 */
+
 body {
   font-family: 'Quicksand', sans-serif;
   font-size: 22px;
   line-height: 1.8;
-  color: #333;
+  color: #444;
   background-color: #fffefc;
   text-align: center;
-  padding: 60px 20px;
+  padding: 80px 20px;
+  position: relative;
 }
 
+/* 🌞 Mặt trời & Rùa */
+.sun-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.sun {
+  position: relative;
+  display: inline-block;
+  color: #ffcf48;
+}
+
+.sun::after {
+  content: "";
+  position: absolute;
+  top: 46%;
+  left: 48%;
+  width: 8px;
+  height: 8px;
+  background: #fff8c7;
+  border-radius: 50%;
+  box-shadow: 0 0 8px #fef6b8;
+}
+
+/* 💛 Tiêu đề, đoạn văn, link */
 h1 {
   font-size: 32px;
   color: #e58aab;
@@ -24,12 +55,22 @@ p, a, em, strong {
   font-size: 20px;
 }
 
-a {
-  color: #cc6394;
-  text-decoration: none;
-  font-weight: 600;
+p.intro {
+  color: #ff69b4;
+  font-weight: bold;
 }
 
+a {
+  color: #888;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #f39d00;
+}
+
+/* 🌸 Giao diện đẹp trên điện thoại */
 @media (max-width: 600px) {
   body {
     font-size: 20px;
