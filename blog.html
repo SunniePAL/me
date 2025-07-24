@@ -7,47 +7,127 @@
   <link rel="stylesheet" href="style.css" />
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
-      line-height: 1.8;
-      font-size: 1.1em; /* tăng nhẹ size chữ */
-      color: #444;
+      font-family: 'Segoe UI', serif;
+      background: #fffbe8;
+      max-width: 720px;
+      margin: auto;
       padding: 2em;
-      background-color: #fdfdfd;
+      line-height: 1.9;
+      font-size: 1.2em;
+      color: #5d4734;
     }
     h1 {
-      font-size: 2em;
-      color: #5d4734;
+      font-size: 2.4em;
+      color: #6b4d3f;
+      text-align: center;
     }
-    .intro {
+    h2 {
+      font-size: 1.4em;
+      margin-top: 2em;
+      color: #6b4d3f;
+    }
+    a {
+      color: #a35c2d;
+      text-decoration: none;
+    }
+    .toc {
+      background: #fffef8;
+      padding: 1em;
+      border-left: 4px solid #d6b88f;
       margin-bottom: 2em;
-      color: #5d4734;
+    }
+    .toc ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .toc li::before {
+      content: "☁️ ";
+      color: #d58a54;
+    }
+    .entry {
+      background: #fffef8;
+      padding: 1em;
+      border-left: 4px solid #d6b88f;
+      margin-bottom: 2em;
+      white-space: pre-wrap;
+    }
+    .edit-link {
+      font-size: 0.85em;
+      display: block;
+      margin-top: 0.5em;
+      color: #a2a2a2;
     }
     .footer {
       margin-top: 3em;
-      font-size: 0.95em;
-      color: #aaa;
+      font-size: 1em;
+      text-align: center;
+      color: #9f8f7f;
     }
   </style>
 </head>
 <body>
   <h1>Thư Thảo ☁️</h1>
-  <p class="intro">
-    Một góc nhỏ lặng lẽ. Những dòng chữ viết ra không cần vang xa, chỉ để lại vết nhẹ trên nền gỗ.  
-    “quiet words left behind.” ☁️
+  <p style="text-align:center; font-style: italic;">
+    quiet words left behind
   </p>
 
-  <p>
-    Nếu bạn tình cờ ghé qua, thì đây là nơi mình giữ vài suy nghĩ, vài đoạn viết, vài hơi thở cũ. Có thể thơ, có thể nháp, có thể không gì hết — nhưng đều là thật vào lúc đó.  
-    Mình viết không để hiện diện cho ai, mà để hiện diện với mình.  
-    Những dòng chữ thô sơ, có hôm mượt mà, có hôm lỡ dở, nhưng đều được sinh ra trên chiếc bàn mộc mạc giữa lòng yên.
-  </p>
+  <div class="toc">
+    <h2>Mục lục ☁️</h2>
+    <ul>
+      <li><a href="#The-Grace-of-Letting-Go">Song - The Grace of Letting Go</a></li>
+      <li><a href="#Double-Light-Ballad">Double Light Ballad</a></li>
+    </ul>
+  </div>
 
-  <p>
-    Cảm ơn bạn đã ghé qua góc này. Không ai được mời, nhưng ai đến cũng được ở lại một lúc nhen ☁️
-  </p>
+  <section id="The-Grace-of-Letting-Go">
+    <h2>📝 The Grace of Letting Go</h2>
+    <div class="entry">
+If you've forgotten
+No need to recall
+Those childhood days now lost
+
+At some minute
+Hand in hand
+We stood
+Promising together heaven
+
+Where the one most love waits
+A real love is you
+Our journey needs nothing more
+Let it go
+Let it go
+To know it was true love
+
+Underneath the moonlight
+Shadows traced our names
+Fading softly like a sigh
+Every whisper
+Every fleeting glance
+Still lingers
+Though it flies
+
+Where the one most love waits
+A real love is you
+Our journey needs nothing more
+Let it go
+Let it go
+To know it was true love
+    </div>
+  </section>
+
+  <section id="Double-Light-Ballad">
+    <h2>🌿 Double Light Ballad</h2>
+    <div class="entry">
+Như lúc mặt trời mọc qua cánh hoa sen
+Đọng trên cánh hoa trắng
+Giọt vàng sáng lấp lánh
+Hoa sen thức dậy
+Trái tim trong lành
+    </div>
+  </section>
 
   <div class="footer">
-    &copy; Sunnie — 2025. Những dấu chữ nhỏ giữa trời trong ☁️
+    ← Trở lại <a href="index.html">trang chính</a> ☁️
   </div>
 </body>
 </html>
