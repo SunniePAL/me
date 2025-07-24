@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>📚 Góc Viết Sâu Của Sunnie</title>
+  <style>
+    body {
+      font-family: serif;
+      background: #fffbe8;
+      max-width: 700px;
+      margin: auto;
+      padding: 2em;
+      line-height: 1.6;
+      color: #5d4734;
+    }
+    h1, h2 {
+      color: #6b4d3f;
+    }
+    a {
+      color: #a35c2d;
+      text-decoration: none;
+    }
+    .toc ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .toc li::before {
+      content: "➤ ";
+      color: #d58a54;
+    }
+    hr {
+      margin: 2em 0;
+      border: none;
+      border-top: 1px solid #d6b88f;
+    }
+    .entry {
+      white-space: pre-wrap;
+      font-family: "Times New Roman", serif;
+      background: #fffef8;
+      padding: 1em;
+      border-left: 4px solid #d6b88f;
+      margin-bottom: 2em;
+    }
+    .footer {
+      margin-top: 3em;
+      font-size: 0.9em;
+      text-align: center;
+      color: #9f8f7f;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>📚 Viết để sống lâu hơn</h1>
+  <p>Mình để lại vài bài viết ở đây—không phải để ai đọc, mà để thấy lại mình khi cần.</p>
+
+  <div class="toc">
+    <h2>📌 Mục lục</h2>
+    <ul>
+      <li><a href="#tham-lang">Bài: Thầm lặng</a></li>
+      <li><a href="#suong-som">Thơ: Sương sớm</a></li>
+    </ul>
+  </div>
+
+  <hr>
+
+  <h2 id="tham-lang">Bài: Thầm lặng</h2>
+  <div class="entry">
+    Mình hay nghĩ về những điều không ai hỏi.  
+    Có những thứ không cần ai hiểu, chỉ cần mình giữ.  
+    Và mình tin rằng sự lặng lẽ cũng là một tiếng nói rất mạnh.  
+    Những ngày không biết làm gì, viết ra vài dòng để thấy mình vẫn còn hiện hữu.
+  </div>
+
+  <h2 id="suong-som">Thơ: Sương sớm</h2>
+  <div class="entry">
+    Sáng mù sương tràn ngõ nhỏ  
+    ai bước qua mà không nhớ  
+    có tiếng chim không ai nghe  
+    có nỗi buồn không ai gọi.
+  </div>
+
+  <div class="footer">
+    ← Trở lại <a href="index.html">trang chính</a> ☀️
+  </div>
+
+</body>
+</html>
